@@ -1,14 +1,13 @@
 {
-  "name": "headless-karma-travis",
+  "name": "ci-headless-chrome",
   "private": true,
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/ebidel/headless-karma-travis",
-  "author": "Eric Bidelman <ebidel@gmail.com>",
+  "repository": "https://github.com/niranjan92/ci-headless-chrome",
   "license": "MIT",
   "scripts": {
     "test": "karma start --single-run --browsers MyHeadlessChrome karma.conf.js",
-    "test_search" : "node ./search_test.js",
+    "test_search" : "node ./search_test.js"
   },
   "devDependencies": {
     "chai": "^4.0.2",
